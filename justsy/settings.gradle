@@ -1,0 +1,6 @@
+include ':libarch'
+include ':libview'
+include ':just'
+include ':domain'
+include ':app'
+rootProject.name = "app_test"
