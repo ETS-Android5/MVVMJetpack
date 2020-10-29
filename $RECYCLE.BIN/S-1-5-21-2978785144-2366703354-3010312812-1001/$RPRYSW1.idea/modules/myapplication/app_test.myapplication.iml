@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":myapplication" external.linked.project.path="$MODULE_DIR$/../../../myapplication" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="app_test" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../myapplication">
+      <excludeFolder url="file://$MODULE_DIR$/../../../myapplication/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../myapplication/build" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../justsy">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/domain/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libarch/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/build/generated/ap_generated_sources/debug/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/domain/build/generated/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/just/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libview/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/build/generated/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/just/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/just/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/build/generated/data_binding_base_class_source_out/debug/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libview/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libarch/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libarch/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/domain/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/libview/src/androidTest/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/app_test/build/generated/source/dataBinding/trigger/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../justsy/domain/src/test/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
