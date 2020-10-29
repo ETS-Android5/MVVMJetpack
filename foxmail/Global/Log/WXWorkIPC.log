@@ -1,3 +1,6 @@
 [7.2.19.158] [MainThread: 20080]  2020-10-29 10:11:40:713 --- InitCommunication ---
 [7.2.19.158] [MainThread: 20080]  2020-10-29 10:11:40:713  [AfterConstruction] TFoxmailIPCWindow: FWindow 264722
 [7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:53:657 === FinalizeCommunication ===
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:48:08:775 --- InitCommunication ---
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:48:08:776  [AfterConstruction] TFoxmailIPCWindow: FWindow 1115644
+[7.2.19.158] [MainThread: 15616]  2020-10-29 15:17:32:245 === FinalizeCommunication ===

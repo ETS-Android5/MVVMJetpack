@@ -10,3 +10,16 @@
 [7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:16:928 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 100000009, old unread count: 4, new unread count: 5.
 [7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:16:934 Inc unread count in OnMailsReadChanged. Mails count: 1, first mail id: 10000000A, old unread count: 5, new unread count: 5.
 [7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:16:942 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 10000000A, old unread count: 5, new unread count: 6.
+[7.2.19.158] [ThreadId: 15920]  2020-10-29 14:48:09:452 Valid unread count in ValidUnreadCount. Mail count: 6, first mail id: 100000003, new unread count: 6.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:11:763 Inc unread count in OnMailsReadChanged. Mails count: 1, first mail id: 10000000F, old unread count: 6, new unread count: 6.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:465 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 10000000F, old unread count: 6, new unread count: 7.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:501 Inc unread count in OnMailsReadChanged. Mails count: 1, first mail id: 100000010, old unread count: 7, new unread count: 7.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:511 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 100000010, old unread count: 7, new unread count: 8.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:519 Inc unread count in OnMailsReadChanged. Mails count: 1, first mail id: 100000011, old unread count: 8, new unread count: 8.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:522 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 100000011, old unread count: 8, new unread count: 9.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:530 Inc unread count in OnMailsReadChanged. Mails count: 1, first mail id: 100000012, old unread count: 9, new unread count: 9.
+[7.2.19.158] [ThreadId: 948]  2020-10-29 14:48:12:534 Inc unread count in OnAddMailsToBox. Box id: 100000003, mails count: 1, first mail id: 100000012, old unread count: 9, new unread count: 10.
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:48:22:377 Invalid unread count in OnMailsReadChanged. Old unread count: 10.
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:48:22:380 Valid unread count in ValidUnreadCount. Mail count: 9, first mail id: 100000003, new unread count: 9.
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:50:46:196 Invalid unread count in OnMailsReadChanged. Old unread count: 9.
+[7.2.19.158] [MainThread: 15616]  2020-10-29 14:50:46:200 Valid unread count in ValidUnreadCount. Mail count: 8, first mail id: 100000003, new unread count: 8.
