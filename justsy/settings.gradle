@@ -1,6 +1,6 @@
-include ':libarch', ':HCNetSDK', ':tuikit', ':app_test', ':ebs', ':kamkeyboard'
+include ':libarch2'
 include ':libview'
 include ':just'
 include ':domain'
 include ':app'
-rootProject.name = "app_test"
+rootProject.name = "app"

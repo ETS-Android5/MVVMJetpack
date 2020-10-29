@@ -1,8 +1,10 @@
 package com.justsafe.domain.http;
 
+import androidx.test.espresso.core.internal.deps.guava.base.Joiner;
 
 
 import com.justsafe.libarch.utils.LogUtils;
+
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -10,7 +12,7 @@ import java.util.Map;
 
 
 public class EncryptionToDataMap {
-/*    public static String Encryption(Map<String, Object> map, String time) {
+    public static String Encryption(Map<String, Object> map, String time) {
         Object[] objects = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
             //android 7
@@ -40,5 +42,5 @@ public class EncryptionToDataMap {
     public static String getDetaString() {
 //  Api26 to return this    String date=  LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS"));
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
-    }*/
+    }
 }
