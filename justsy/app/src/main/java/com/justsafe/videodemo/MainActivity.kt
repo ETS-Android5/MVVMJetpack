@@ -1,33 +1,36 @@
-package com.itfitness.videodemo
+package com.justsafe.videodemo
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
+import android.graphics.Camera
 import android.widget.Toast
-import com.itfitness.videodemo.manager.VideoRecordManager
-import kotlinx.android.synthetic.main.activity_main.*
+import com.justsafe.videodemo.manager.VideoRecordManager
+import com.justsafe.app_test.R
+import com.justsafe.app_test.databinding.ActivityMain2Binding
+import com.justsafe.libview.base.BaseActivity
 
 
-
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity<ActivityMain2Binding>() {
     private var flagPlay:Boolean = false
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_2)
+    lateinit var camera:Camera
+    override fun getLayout(): Int {
+        return R.layout.activity_main_2
+    }
+
+    override fun init() {
         val videoRecordManager = VideoRecordManager(camera)
-        bt.setOnClickListener {
+        mdatabinding.bt.setOnClickListener {
             if(flagPlay){
                 videoRecordManager.stop()
-                bt.text = "开始"
+                mdatabinding.bt.text = "开始"
                 Toast.makeText(this@MainActivity,"结束",Toast.LENGTH_SHORT).show()
             }else{
                 videoRecordManager.start()
-                bt.text = "结束"
+                mdatabinding.bt.text = "结束"
                 Toast.makeText(this@MainActivity,"开始",Toast.LENGTH_SHORT).show()
             }
             flagPlay = !flagPlay
         }
-        bt_play.setOnClickListener {
+        mdatabinding.btPlay.setOnClickListener {
             startActivity(Intent(this@MainActivity, PlayerRecordActivity::class.java))
         }
     }

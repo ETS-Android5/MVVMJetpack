@@ -3,7 +3,6 @@ package com.justsafe.domain.http;
 
 
 import com.justsafe.libarch.utils.LogUtils;
-import androidx.test.espresso.core.internal.deps.guava.base.Joiner;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;

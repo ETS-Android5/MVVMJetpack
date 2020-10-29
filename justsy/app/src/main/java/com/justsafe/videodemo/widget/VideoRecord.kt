@@ -1,7 +1,6 @@
-package com.itfitness.videodemo.widget
+package com.justsafe.videodemo.widget
 
 import android.hardware.Camera
-import android.view.Surface
 import android.view.SurfaceHolder
 
 interface VideoRecord {

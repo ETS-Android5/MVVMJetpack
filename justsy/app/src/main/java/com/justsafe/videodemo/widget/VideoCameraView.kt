@@ -1,4 +1,4 @@
-package com.itfitness.videodemo.widget
+package com.justsafe.videodemo.widget
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -96,7 +96,7 @@ class VideoCameraView : SurfaceView, SurfaceHolder.Callback, Camera.AutoFocusCal
     /**
      * 停止预览
      */
-    fun stopPreview() {
+    private fun stopPreview() {
         if (mCamera != null && isPreviewing) {
             mCamera!!.stopPreview()
             isPreviewing = false
@@ -106,7 +106,7 @@ class VideoCameraView : SurfaceView, SurfaceHolder.Callback, Camera.AutoFocusCal
     /**
      * 开始预览
      */
-    fun startPreview() {
+    private fun startPreview() {
         if (mCamera != null) {
             mCamera!!.startPreview()
             if (isSupportAutoFocus) {
@@ -155,17 +155,17 @@ class VideoCameraView : SurfaceView, SurfaceHolder.Callback, Camera.AutoFocusCal
         }
     }
 
-    override fun surfaceChanged(holder: SurfaceHolder?, format: Int, width: Int, height: Int) {
+    override fun surfaceChanged(holder: SurfaceHolder, format: Int, width: Int, height: Int) {
         stopPreview()
         initCamera()
 
     }
 
-    override fun surfaceDestroyed(holder: SurfaceHolder?) {
+    override fun surfaceDestroyed(holder: SurfaceHolder) {
         releaseCamera()
     }
 
-    override fun surfaceCreated(holder: SurfaceHolder?) {
+    override fun surfaceCreated(holder: SurfaceHolder) {
         try {
             releaseCamera()
             openCamera()

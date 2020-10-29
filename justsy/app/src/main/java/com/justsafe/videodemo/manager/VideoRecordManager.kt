@@ -1,13 +1,11 @@
-package com.itfitness.videodemo.manager
+package com.justsafe.videodemo.manager
 
+import android.graphics.Camera
 import android.media.MediaRecorder
-import android.os.Build
-import android.support.annotation.RequiresApi
 import com.itfitness.videodemo.util.FileUtil
-import com.itfitness.videodemo.widget.VideoRecord
 
 
-class VideoRecordManager(private val videoRecord: VideoRecord) {
+class VideoRecordManager(private val videoRecord: Camera) {
     private var mRecorder: MediaRecorder? = null
     /**
      * 开始录制
