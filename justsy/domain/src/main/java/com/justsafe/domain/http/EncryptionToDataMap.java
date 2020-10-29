@@ -1,6 +1,5 @@
 package com.justsafe.domain.http;
 
-import androidx.test.espresso.core.internal.deps.guava.base.Joiner;
 
 
 import com.justsafe.libarch.utils.LogUtils;
@@ -12,7 +11,7 @@ import java.util.Map;
 
 
 public class EncryptionToDataMap {
-    public static String Encryption(Map<String, Object> map, String time) {
+/*    public static String Encryption(Map<String, Object> map, String time) {
         Object[] objects = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
             //android 7
@@ -32,12 +31,12 @@ public class EncryptionToDataMap {
         String concat = Joiner.on("&").join(Arrays.asList(objects)).concat("&curDate=" + time);
         LogUtils.i(concat);
         return concat;
-    }
+    }*/
 
 
-    public static String Encryption_Back(Map<String, Object> map, String time) {
+/*    public static String Encryption_Back(Map<String, Object> map, String time) {
         return Joiner.on("&").join(Arrays.asList(map.entrySet().stream().map(x -> x.getKey() + "=" + x.getValue()).toArray())).concat("&curDate=" + time);
-    }
+    }*/
 
     public static String getDetaString() {
 //  Api26 to return this    String date=  LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS"));

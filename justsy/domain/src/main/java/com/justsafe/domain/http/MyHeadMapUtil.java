@@ -19,7 +19,8 @@ public class MyHeadMapUtil {
     public Map DataToHeader(Map datamap) {
         Map<String, Object> mheadMap = new HashMap<>();
         String time = EncryptionToDataMap.getDetaString();
-        String headstr = RSAUtils.encrypt(JustRestService.PUCLIC_KEY, EncryptionToDataMap.Encryption(datamap, time));
+        String headstr = "";
+//        String headstr = RSAUtils.encrypt(JustRestService.PUCLIC_KEY, EncryptionToDataMap.Encryption(datamap, time));
         mheadMap.put("Authorization", "RSA" + " " + headstr);
         mheadMap.put("RequestDate", time);
         return mheadMap;
