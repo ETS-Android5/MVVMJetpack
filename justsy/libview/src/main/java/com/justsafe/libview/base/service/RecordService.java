@@ -14,9 +14,8 @@ import android.os.IBinder;
 
 import androidx.annotation.RequiresApi;
 
-import com.elab.domain.persional.ELabProfileManager;
-import com.elab.libarch.utils.FileUtils;
-import com.elab.libarch.utils.LogUtils;
+import com.justsafe.libarch.utils.FileUtils;
+import com.justsafe.libarch.utils.LogUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -79,6 +78,7 @@ public class RecordService extends Service {
      *
      * @return
      */
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public boolean startRecordCompat(boolean isConsulation) {
         if (Build.VERSION.SDK_INT == Build.VERSION_CODES.P) {
             LogUtils.i("=======================我是Android P");
@@ -129,19 +129,12 @@ public class RecordService extends Service {
                 virtualDisplay.release();
             }
             if (mediaRecorder != null) {
-                mediaProjection.stop();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    mediaProjection.stop();
+                }
             }
             //Toast.makeText(this, " RuntimeException: ", Toast.LENGTH_SHORT).show();
         } catch (RuntimeException e) {
-//            if (mediaRecorder != null) {
-//                mediaRecorder.stop();
-//                mediaRecorder.reset();
-//                mediaRecorder.release();
-//                mediaRecorder = null;
-//            }
-//            virtualDisplay.release();
-//            mediaProjection.stop();
-            //Toast.makeText(this, " RuntimeException: " + e.toString(), Toast.LENGTH_SHORT).show();
             LogUtils.e("   stopRecord :    " + e.toString());
         }
         if (!mSavePath.equals("")) {
@@ -227,10 +220,10 @@ public class RecordService extends Service {
 
     public String getsaveDirectory() {
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            //String rootDir = Environment.getExternalStorageDirectory().getAbsolutePath() + "/ELab/" + "screenRecord" + "/";
             String rootDir = null;
             try {
-                rootDir = ELabProfileManager.getELabScreenRecordSavePath();
+//                记得打开
+//                rootDir = ELabProfileManager.getELabScreenRecordSavePath();
             } catch (Exception e) {
                 e.printStackTrace();
                 LogUtils.e("RecordService： " + e.toString());

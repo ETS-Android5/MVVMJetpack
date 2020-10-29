@@ -16,7 +16,8 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.elab.libarch.utils.FileUtils;
+
+import com.justsafe.libarch.utils.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -78,6 +79,7 @@ public class ScreenRecordService extends IntentService {
 
 
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public boolean startRecord() {
         if (mIsRunning) {
             return false;
