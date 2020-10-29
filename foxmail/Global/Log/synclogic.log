@@ -1,0 +1,45 @@
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:10:948 AsyncStartTask Result: True , taskID: 1, taskType: 21, msgHandle: 0x000409BC accID: -1, boxID: -1, boxName: , Server: 
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:10:949 DoTaskBegin: taskId: 1
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:11:780 DoTaskCompleted: taskId: 1
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:13:539 AsyncStartTask Result: True , taskID: 2, taskType: 0, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:13:628 DoTaskBegin: taskId: 2
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:629 AsyncStartTask Result: True , taskID: 3, taskType: 29, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:14:633 DoTaskBegin: taskId: 3
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:15:257 AsyncStartTask Result: True , taskID: 4, taskType: 1, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967301, boxName: ²Ý¸åÏä, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:15:257 DoTaskBegin: taskId: 4
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:16:095 DoTaskCompleted: taskId: 4
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:16:096 AsyncStartTask Result: True , taskID: 5, taskType: 2, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:16:115 DoTaskBegin: taskId: 5
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:16:823 DoTaskCompleted: taskId: 5
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:030 AsyncStartTask Result: True , taskID: 6, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967299, boxName: ÊÕ¼þÏä, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:032 DoTaskBegin: taskId: 6
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:983 DoTaskCompleted: taskId: 2
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:983 AsyncStartTask Result: True , taskID: 7, taskType: 26, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967299, boxName: ÊÕ¼þÏä, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:984 AsyncStartTask Result: True , taskID: 8, taskType: 2, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:984 DoTaskBegin: taskId: 7
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:984 DoTaskBegin: taskId: 8
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:18:152 DoTaskCompleted: taskId: 7
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:18:953 DoTaskCompleted: taskId: 8
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:20:084 AsyncStartTask Result: True , taskID: 9, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967301, boxName: ²Ý¸åÏä, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:20:084 DoTaskBegin: taskId: 9
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:20:085 DoTaskCompleted: taskId: 9
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:23:637 AsyncStartTask Result: True , taskID: 10, taskType: 0, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:23:637 DoTaskBegin: taskId: 10
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:24:639 DoTaskCompleted: taskId: 6
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:25:325 DoTaskCompleted: taskId: 10
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:25:326 AsyncStartTask Result: True , taskID: 11, taskType: 2, msgHandle: 0x000409BC accID: 4294967297, boxID: -1, boxName: , Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:25:326 DoTaskBegin: taskId: 11
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:25:745 DoTaskCompleted: taskId: 11
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:28:873 AsyncStartTask Result: True , taskID: 12, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967301, boxName: ²Ý¸åÏä, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:28:873 DoTaskBegin: taskId: 12
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:28:873 DoTaskCompleted: taskId: 12
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:138 AsyncStartTask Result: True , taskID: 13, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967308, boxName: ÒÑ·¢ËÍÓÊ¼þ, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:139 DoTaskBegin: taskId: 13
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:215 AsyncStartTask Result: True , taskID: 14, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967309, boxName: ÒÑÉ¾³ýÓÊ¼þ, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:215 DoTaskBegin: taskId: 14
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:215 DoTaskCompleted: taskId: 14
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:307 AsyncStartTask Result: True , taskID: 15, taskType: 28, msgHandle: 0x000409BC accID: 4294967297, boxID: 4294967303, boxName: À¬»øÓÊ¼þ, Server: mail.justsafe.com
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:307 DoTaskBegin: taskId: 15
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:308 DoTaskCompleted: taskId: 15
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:29:403 DoTaskCompleted: taskId: 13
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:633 DoTaskCompleted: taskId: 3

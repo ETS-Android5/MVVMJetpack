@@ -1,0 +1,118 @@
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:640 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: GetHierarchy
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:641 AfterGetCommandParams: True
+	TaskId: 2, Command: SyncHierarychy; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:631 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Status
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:631 AfterGetCommandParams: True
+	TaskId: 2, Command: StatusBox; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:14:633 AddPushNotification: accID: 4294967297
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Upload
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Download
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 AfterGetCommandParams: True
+	TaskId: 2, Command: SyncContent; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:257 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Status
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:258 AfterGetCommandParams: True
+	TaskId: 4, Command: StatusBox; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: ²Ý¸åÏä, msg: 
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:020 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Upload
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:020 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:020 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Download
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:021 AfterGetCommandParams: True
+	TaskId: 4, Command: SyncContent; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: ²Ý¸åÏä, msg: 
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:095 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Download
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:095 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:095 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: 6
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:115 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:242 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: ²Ý¸åÏä, msg: 
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:823 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:823 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:823 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: 6
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:030 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Download
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:030 AfterGetCommandParams: True
+	TaskId: 2, Command: SyncContent; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:795 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: Download
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:795 AfterGetCommandParams: True
+	TaskId: 2, Command: SyncContent; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑÉ¾³ýÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:874 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: Download
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:874 AfterGetCommandParams: True
+	TaskId: 2, Command: SyncContent; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:963 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: Download
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:963 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:963 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncTags
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:963 AfterGetCommandParams: True
+	TaskId: 2, Command: 62; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:983 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:17:984 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:17:985 AfterGetCommandParams: True
+	TaskId: 8, Command: FetchFlags; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:716 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:717 AfterGetCommandParams: True
+	TaskId: 8, Command: 67; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:736 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:736 AfterGetCommandParams: True
+	TaskId: 8, Command: FetchFlags; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:883 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:883 AfterGetCommandParams: True
+	TaskId: 8, Command: 67; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:904 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:905 AfterGetCommandParams: True
+	TaskId: 8, Command: 67; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑÉ¾³ýÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:931 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:931 AfterGetCommandParams: True
+	TaskId: 8, Command: 67; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:953 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:953 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:953 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:23:638 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: GetHierarchy
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:23:638 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncHierarychy; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:082 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Status
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:082 AfterGetCommandParams: True
+	TaskId: 10, Command: StatusBox; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:439 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Upload
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:440 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:440 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:440 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncContent; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:714 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:714 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncContent; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: ²Ý¸åÏä, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:869 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:869 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncContent; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:132 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:132 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncContent; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑÉ¾³ýÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:214 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:214 AfterGetCommandParams: True
+	TaskId: 10, Command: SyncContent; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:304 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: Download
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:304 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:304 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncTags
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:304 AfterGetCommandParams: True
+	TaskId: 10, Command: 62; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:325 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:326 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:327 AfterGetCommandParams: True
+	TaskId: 11, Command: FetchFlags; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:477 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:477 AfterGetCommandParams: True
+	TaskId: 11, Command: 67; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: ÊÕ¼þÏä, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:506 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:506 AfterGetCommandParams: True
+	TaskId: 11, Command: 67; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: ²Ý¸åÏä, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:529 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:530 AfterGetCommandParams: True
+	TaskId: 11, Command: FetchFlags; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:670 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:670 AfterGetCommandParams: True
+	TaskId: 11, Command: 67; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑ·¢ËÍÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:705 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:705 AfterGetCommandParams: True
+	TaskId: 11, Command: 67; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: ÒÑÉ¾³ýÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:725 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:726 AfterGetCommandParams: True
+	TaskId: 11, Command: 67; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: À¬»øÓÊ¼þ, msg: 
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:745 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:745 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:745 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6

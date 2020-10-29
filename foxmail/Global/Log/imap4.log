@@ -1,0 +1,1037 @@
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:10:935 Create IMAP Client: 61678796
+*********************
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:10:949 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:141 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:141 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:172 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:756 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:758 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:758 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 12192]  2020-10-29 10:12:11:777 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:13:342 Create IMAP Client: 61676620
+*********************
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:641 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:819 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:820 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:13:837 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:183 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:183 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:183 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:206 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:206 zhangt2@justsafe.com mail.justsafe.com: C4 LIST "" *
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:239 mail.justsafe.com zhangt2@justsafe.com
+* LIST (\HasNoChildren) "/" &T797Og-
+* LIST (\HasNoChildren) "/" &g0l6Pw-
+* LIST (\HasNoChildren) "/" &U9FO9nux-
+* LIST (\HasNoChildren) "/" &V4NXPpCuTvY-
+* LIST (\HasChildren) "/" &gFR8+066-
+* LIST (\HasN
+......
+T (\HasNoChildren) "/" &ZeWLsA-
+* LIST (\HasNoChildren) "/" &ZeVThg-
+* LIST (\Marked \HasNoChildren) "/" INBOX
+* LIST (\HasNoChildren) "/" &XfJT0ZABkK5O9g-
+* LIST (\HasNoChildren) "/" &XfJSIJZkkK5O9g-
+C4 OK LIST completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:239 zhangt2@justsafe.com mail.justsafe.com: C5 LSUB "" *
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:315 mail.justsafe.com zhangt2@justsafe.com
+C5 OK LSUB completed.
+----------------------
+[7.2.19.158] [ThreadId: 6168]  2020-10-29 10:12:14:484 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:628 Create IMAP Client: 61678796
+*********************
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:14:633 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:635 zhangt2@justsafe.com mail.justsafe.com: C6 NOOP
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:655 mail.justsafe.com zhangt2@justsafe.com
+C6 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:656 zhangt2@justsafe.com mail.justsafe.com: C7 STATUS "INBOX" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:700 mail.justsafe.com zhangt2@justsafe.com
+* STATUS INBOX (MESSAGES 13 RECENT 13 UIDVALIDITY 14) 
+C7 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:716 zhangt2@justsafe.com mail.justsafe.com: C8 STATUS "&g0l6Pw-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:766 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &g0l6Pw- (MESSAGES 0 RECENT 0 UIDVALIDITY 17) 
+C8 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:766 zhangt2@justsafe.com mail.justsafe.com: C9 STATUS "&XfJT0ZABkK5O9g-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:802 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &XfJT0ZABkK5O9g- (MESSAGES 1 RECENT 1 UIDVALIDITY 11) 
+C9 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:803 zhangt2@justsafe.com mail.justsafe.com: C10 STATUS "&XfJSIJZkkK5O9g-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:830 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &XfJSIJZkkK5O9g- (MESSAGES 0 RECENT 0 UIDVALIDITY 12) 
+C10 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:830 zhangt2@justsafe.com mail.justsafe.com: C11 STATUS "&V4NXPpCuTvY-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:14:840 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:14:840 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:14:860 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &V4NXPpCuTvY- (MESSAGES 0 RECENT 0 UIDVALIDITY 32) 
+C11 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:861 zhangt2@justsafe.com mail.justsafe.com: C12 NOOP
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:882 mail.justsafe.com zhangt2@justsafe.com
+C12 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:883 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:883 zhangt2@justsafe.com mail.justsafe.com: C13 CAPABILITY
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:911 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C13 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:911 zhangt2@justsafe.com mail.justsafe.com: C14 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:972 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 13 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C14 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:14:973 zhangt2@justsafe.com mail.justsafe.com: C15 FETCH 1:13 (UID)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:15:069 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1)
+C15 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:15:070 zhangt2@justsafe.com mail.justsafe.com: C16 UID FETCH 1:2,5:15 (UID RFC822.SIZE FLAGS BODY.PEEK[HEADER])
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:15:257 Create IMAP Client: 61680156
+*********************
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:258 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:412 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:412 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:412 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:425 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:426 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:435 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:436 zhangt2@justsafe.com mail.justsafe.com: C4 CAPABILITY
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:443 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:457 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C4 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:457 zhangt2@justsafe.com mail.justsafe.com: C5 CAPABILITY
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:474 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C5 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:474 zhangt2@justsafe.com mail.justsafe.com: C6 CAPABILITY
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:492 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C6 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:493 zhangt2@justsafe.com mail.justsafe.com: C7 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:534 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C7 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:534 zhangt2@justsafe.com mail.justsafe.com: C8 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:561 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C8 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:561 zhangt2@justsafe.com mail.justsafe.com: C9 IDLE
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:965 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:965 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:965 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:992 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:15:994 zhangt2@justsafe.com mail.justsafe.com: C4 STATUS "&g0l6Pw-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:020 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &g0l6Pw- (MESSAGES 0 RECENT 0 UIDVALIDITY 17) 
+C4 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:021 zhangt2@justsafe.com mail.justsafe.com: C5 NOOP
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:043 mail.justsafe.com zhangt2@justsafe.com
+C5 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:044 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:044 zhangt2@justsafe.com mail.justsafe.com: C6 CAPABILITY
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:066 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C6 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:066 zhangt2@justsafe.com mail.justsafe.com: C7 SELECT "&g0l6Pw-"
+[7.2.19.158] [ThreadId: 560]  2020-10-29 10:12:16:094 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 17] UIDVALIDITY value
+* OK [UIDNEXT 4] The next unique identifier value
+C7 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:16:096 Create IMAP Client: 61681516
+*********************
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:243 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:412 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:412 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:434 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:765 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:765 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:765 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:823 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:16:992 zhangt2@justsafe.com mail.justsafe.com: Receive 13 mail head Success
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:16:992 server uid count: 13 local uid count 13
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:031 zhangt2@justsafe.com mail.justsafe.com: C17 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:033 zhangt2@justsafe.com mail.justsafe.com: C8 NOOP
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:050 mail.justsafe.com zhangt2@justsafe.com
+C17 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:051 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:051 zhangt2@justsafe.com mail.justsafe.com: C18 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:057 mail.justsafe.com zhangt2@justsafe.com
+C8 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:059 zhangt2@justsafe.com mail.justsafe.com: C9 CAPABILITY
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:074 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C18 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:074 zhangt2@justsafe.com mail.justsafe.com: C19 SELECT "&XfJT0ZABkK5O9g-"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:092 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C9 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:092 zhangt2@justsafe.com mail.justsafe.com: C10 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:105 mail.justsafe.com zhangt2@justsafe.com
+* 1 EXISTS
+* 1 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 11] UIDVALIDITY value
+* OK [UIDNEXT 2] The next unique identifier value
+C19 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:106 zhangt2@justsafe.com mail.justsafe.com: C20 FETCH 1:1 (UID)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:120 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C10 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:120 zhangt2@justsafe.com mail.justsafe.com: C11 UID FETCH 15 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:166 BodyPeek response: * 13 FETCH (UID 15 BODY[] {3520} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:166 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:187 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:187 zhangt2@justsafe.com mail.justsafe.com: C12 UID FETCH 15 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:301 mail.justsafe.com zhangt2@justsafe.com
+* 13 FETCH (UID 15 FLAGS (\Seen))
+C12 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:383 zhangt2@justsafe.com mail.justsafe.com: C13 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:437 mail.justsafe.com zhangt2@justsafe.com
+C13 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:439 zhangt2@justsafe.com mail.justsafe.com: C14 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:464 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C14 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:464 zhangt2@justsafe.com mail.justsafe.com: C15 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:492 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C15 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:492 zhangt2@justsafe.com mail.justsafe.com: C16 UID FETCH 14 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:507 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1)
+C20 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:508 zhangt2@justsafe.com mail.justsafe.com: C21 UID FETCH 1 (UID RFC822.SIZE FLAGS BODY.PEEK[HEADER])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:518 BodyPeek response: * 12 FETCH (UID 14 BODY[] {3510} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:518 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:534 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:534 zhangt2@justsafe.com mail.justsafe.com: C17 UID FETCH 14 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:628 mail.justsafe.com zhangt2@justsafe.com
+* 12 FETCH (UID 14 FLAGS (\Seen))
+C17 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:794 zhangt2@justsafe.com mail.justsafe.com: Receive 1 mail head Success
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:794 server uid count: 1 local uid count 1
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:795 zhangt2@justsafe.com mail.justsafe.com: C22 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:796 zhangt2@justsafe.com mail.justsafe.com: C18 NOOP
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:823 mail.justsafe.com zhangt2@justsafe.com
+C22 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:823 mail.justsafe.com zhangt2@justsafe.com
+C18 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:823 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:824 zhangt2@justsafe.com mail.justsafe.com: C23 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:826 zhangt2@justsafe.com mail.justsafe.com: C19 CAPABILITY
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:842 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C23 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:842 zhangt2@justsafe.com mail.justsafe.com: C24 SELECT "&XfJSIJZkkK5O9g-"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:845 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C19 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:845 zhangt2@justsafe.com mail.justsafe.com: C20 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:866 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C20 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:866 zhangt2@justsafe.com mail.justsafe.com: C21 UID FETCH 13 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:873 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 12] UIDVALIDITY value
+* OK [UIDNEXT 1] The next unique identifier value
+C24 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:874 zhangt2@justsafe.com mail.justsafe.com: C25 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:899 BodyPeek response: * 11 FETCH (UID 13 BODY[] {9063} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:899 Begin to Retrieve
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:899 mail.justsafe.com zhangt2@justsafe.com
+C25 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:900 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:900 zhangt2@justsafe.com mail.justsafe.com: C26 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:915 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:17:916 zhangt2@justsafe.com mail.justsafe.com: C22 UID FETCH 13 (UID FLAGS)
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:920 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C26 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:920 zhangt2@justsafe.com mail.justsafe.com: C27 SELECT "&V4NXPpCuTvY-"
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:961 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 32] UIDVALIDITY value
+* OK [UIDNEXT 1] The next unique identifier value
+C27 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:964 zhangt2@justsafe.com mail.justsafe.com: C28 NOOP
+[7.2.19.158] [ThreadId: 12100]  2020-10-29 10:12:17:982 mail.justsafe.com zhangt2@justsafe.com
+C28 OK NOOP completed.
+----------------------
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:12:17:984 Create IMAP Client: 61683284
+*********************
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:17:985 zhangt2@justsafe.com mail.justsafe.com: C4 NOOP
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:17:985 Begin Connect:  zhangt2@justsafe.com mail.justsafe.com :993;
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:001 mail.justsafe.com zhangt2@justsafe.com
+* 11 FETCH (UID 13 FLAGS (\Seen))
+C22 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:003 mail.justsafe.com zhangt2@justsafe.com
+C4 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:003 zhangt2@justsafe.com mail.justsafe.com: C5 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:004 zhangt2@justsafe.com mail.justsafe.com: C23 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:024 mail.justsafe.com zhangt2@justsafe.com
+C23 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:026 zhangt2@justsafe.com mail.justsafe.com: C24 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:045 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C24 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:045 zhangt2@justsafe.com mail.justsafe.com: C25 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:049 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C5 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:050 zhangt2@justsafe.com mail.justsafe.com: C6 UID SEARCH CHARSET utf-8 SUBJECT "FoxmailDetector"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:066 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C25 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:067 zhangt2@justsafe.com mail.justsafe.com: C26 UID FETCH 12 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:093 BodyPeek response: * 10 FETCH (UID 12 BODY[] {9069} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:093 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:114 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:115 zhangt2@justsafe.com mail.justsafe.com: C27 UID FETCH 12 (UID FLAGS)
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:151 mail.justsafe.com zhangt2@justsafe.com
+C6 NO [BADCHARSET (US-ASCII)] The specified charset is not supported.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:154 Connect OK! zhangt2@justsafe.com mail.justsafe.com
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:154 zhangt2@justsafe.com mail.justsafe.com: C1 CAPABILITY
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:173 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C1 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:195 mail.justsafe.com zhangt2@justsafe.com
+* 10 FETCH (UID 12 FLAGS ())
+C27 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:198 zhangt2@justsafe.com mail.justsafe.com: C28 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:218 mail.justsafe.com zhangt2@justsafe.com
+C28 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:219 zhangt2@justsafe.com mail.justsafe.com: C29 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:489 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C29 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:489 zhangt2@justsafe.com mail.justsafe.com: C30 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:533 mail.justsafe.com zhangt2@justsafe.com
+C2 OK LOGIN completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:533 zhangt2@justsafe.com Login OK!
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:533 zhangt2@justsafe.com mail.justsafe.com: C3 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:533 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C30 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:533 zhangt2@justsafe.com mail.justsafe.com: C31 UID FETCH 11 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:572 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C3 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:572 zhangt2@justsafe.com mail.justsafe.com: C4 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:578 BodyPeek response: * 9 FETCH (UID 11 BODY[] {11342} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:578 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:628 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:628 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C4 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:629 zhangt2@justsafe.com mail.justsafe.com: C5 UID FETCH 1:2,5:15 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:629 zhangt2@justsafe.com mail.justsafe.com: C32 UID FETCH 11 (UID FLAGS)
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:716 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C5 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:716 mail.justsafe.com zhangt2@justsafe.com
+* 9 FETCH (UID 11 FLAGS ())
+C32 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:717 zhangt2@justsafe.com mail.justsafe.com: C6 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:721 zhangt2@justsafe.com mail.justsafe.com: C33 NOOP
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:735 mail.justsafe.com zhangt2@justsafe.com
+C6 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:736 zhangt2@justsafe.com mail.justsafe.com: C7 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:740 mail.justsafe.com zhangt2@justsafe.com
+C33 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:742 zhangt2@justsafe.com mail.justsafe.com: C34 CAPABILITY
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:770 mail.justsafe.com zhangt2@justsafe.com
+C7 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:770 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C34 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:770 zhangt2@justsafe.com mail.justsafe.com: C35 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:771 zhangt2@justsafe.com mail.justsafe.com: C8 SELECT "&XfJT0ZABkK5O9g-"
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:796 mail.justsafe.com zhangt2@justsafe.com
+* 1 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 11] UIDVALIDITY value
+* OK [UIDNEXT 2] The next unique identifier value
+C8 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:796 zhangt2@justsafe.com mail.justsafe.com: C9 UID FETCH 1 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:807 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C35 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:807 zhangt2@justsafe.com mail.justsafe.com: C36 UID FETCH 10 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:882 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C9 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:883 zhangt2@justsafe.com mail.justsafe.com: C10 NOOP
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:904 mail.justsafe.com zhangt2@justsafe.com
+C10 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:905 zhangt2@justsafe.com mail.justsafe.com: C11 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:909 BodyPeek response: * 8 FETCH (UID 10 BODY[] {57732} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:909 Begin to Retrieve
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:930 mail.justsafe.com zhangt2@justsafe.com
+C11 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:933 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:934 zhangt2@justsafe.com mail.justsafe.com: C12 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:18:934 zhangt2@justsafe.com mail.justsafe.com: C37 UID FETCH 10 (UID FLAGS)
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:952 mail.justsafe.com zhangt2@justsafe.com
+C12 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:036 mail.justsafe.com zhangt2@justsafe.com
+* 8 FETCH (UID 10 FLAGS (\Seen))
+C37 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:040 zhangt2@justsafe.com mail.justsafe.com: C38 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:059 mail.justsafe.com zhangt2@justsafe.com
+C38 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:060 zhangt2@justsafe.com mail.justsafe.com: C39 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:080 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C39 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:080 zhangt2@justsafe.com mail.justsafe.com: C40 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:102 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C40 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:102 zhangt2@justsafe.com mail.justsafe.com: C41 UID FETCH 9 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:179 BodyPeek response: * 7 FETCH (UID 9 BODY[] {87919} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:179 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:217 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:219 zhangt2@justsafe.com mail.justsafe.com: C42 UID FETCH 9 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:304 mail.justsafe.com zhangt2@justsafe.com
+* 7 FETCH (UID 9 FLAGS ())
+C42 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:309 zhangt2@justsafe.com mail.justsafe.com: C43 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:339 mail.justsafe.com zhangt2@justsafe.com
+C43 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:341 zhangt2@justsafe.com mail.justsafe.com: C44 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:366 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C44 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:366 zhangt2@justsafe.com mail.justsafe.com: C45 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:391 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C45 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:392 zhangt2@justsafe.com mail.justsafe.com: C46 UID FETCH 8 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:502 BodyPeek response: * 6 FETCH (UID 8 BODY[] {134458} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:502 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:604 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:608 zhangt2@justsafe.com mail.justsafe.com: C47 UID FETCH 8 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:694 mail.justsafe.com zhangt2@justsafe.com
+* 6 FETCH (UID 8 FLAGS (\Seen))
+C47 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:699 zhangt2@justsafe.com mail.justsafe.com: C48 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:723 mail.justsafe.com zhangt2@justsafe.com
+C48 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:724 zhangt2@justsafe.com mail.justsafe.com: C49 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:747 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C49 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:747 zhangt2@justsafe.com mail.justsafe.com: C50 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:779 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C50 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:779 zhangt2@justsafe.com mail.justsafe.com: C51 UID FETCH 7 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:829 BodyPeek response: * 5 FETCH (UID 7 BODY[] {45735} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:829 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:849 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:19:851 zhangt2@justsafe.com mail.justsafe.com: C52 UID FETCH 7 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:230 mail.justsafe.com zhangt2@justsafe.com
+* 5 FETCH (UID 7 FLAGS ())
+C52 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:234 zhangt2@justsafe.com mail.justsafe.com: C53 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:254 mail.justsafe.com zhangt2@justsafe.com
+C53 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:256 zhangt2@justsafe.com mail.justsafe.com: C54 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:284 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C54 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:284 zhangt2@justsafe.com mail.justsafe.com: C55 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:314 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C55 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:314 zhangt2@justsafe.com mail.justsafe.com: C56 UID FETCH 6 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:393 BodyPeek response: * 4 FETCH (UID 6 BODY[] {87920} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:393 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:542 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:545 zhangt2@justsafe.com mail.justsafe.com: C57 UID FETCH 6 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:918 mail.justsafe.com zhangt2@justsafe.com
+* 4 FETCH (UID 6 FLAGS ())
+C57 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:922 zhangt2@justsafe.com mail.justsafe.com: C58 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:982 mail.justsafe.com zhangt2@justsafe.com
+C58 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:20:984 zhangt2@justsafe.com mail.justsafe.com: C59 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:014 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C59 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:014 zhangt2@justsafe.com mail.justsafe.com: C60 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:115 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C60 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:115 zhangt2@justsafe.com mail.justsafe.com: C61 UID FETCH 5 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:743 BodyPeek response: * 3 FETCH (UID 5 BODY[] {119375} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:21:743 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:234 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:235 zhangt2@justsafe.com mail.justsafe.com: C62 UID FETCH 5 (UID FLAGS)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:416 mail.justsafe.com zhangt2@justsafe.com
+* 3 FETCH (UID 5 FLAGS ())
+C62 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:468 zhangt2@justsafe.com mail.justsafe.com: C63 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:663 mail.justsafe.com zhangt2@justsafe.com
+C63 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:665 zhangt2@justsafe.com mail.justsafe.com: C64 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:688 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C64 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:688 zhangt2@justsafe.com mail.justsafe.com: C65 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:722 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C65 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:722 zhangt2@justsafe.com mail.justsafe.com: C66 UID FETCH 2 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:846 BodyPeek response: * 2 FETCH (UID 2 BODY[] {244181} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:22:846 Begin to Retrieve
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:23:595 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:23:597 zhangt2@justsafe.com mail.justsafe.com: C67 UID FETCH 2 (UID FLAGS)
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:23:638 zhangt2@justsafe.com mail.justsafe.com: C7 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:23:771 mail.justsafe.com zhangt2@justsafe.com
+C7 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:23:772 zhangt2@justsafe.com mail.justsafe.com: C8 LIST "" *
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:021 mail.justsafe.com zhangt2@justsafe.com
+* 2 FETCH (UID 2 FLAGS (\Seen))
+C67 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:021 mail.justsafe.com zhangt2@justsafe.com
+* LIST (\HasNoChildren) "/" &T797Og-
+* LIST (\HasNoChildren) "/" &g0l6Pw-
+* LIST (\HasNoChildren) "/" &U9FO9nux-
+* LIST (\HasNoChildren) "/" &V4NXPpCuTvY-
+* LIST (\HasChildren) "/" &gFR8+066-
+* LIST (\HasN
+......
+T (\HasNoChildren) "/" &ZeWLsA-
+* LIST (\HasNoChildren) "/" &ZeVThg-
+* LIST (\Marked \HasNoChildren) "/" INBOX
+* LIST (\HasNoChildren) "/" &XfJT0ZABkK5O9g-
+* LIST (\HasNoChildren) "/" &XfJSIJZkkK5O9g-
+C8 OK LIST completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:021 zhangt2@justsafe.com mail.justsafe.com: C9 LSUB "" *
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:026 zhangt2@justsafe.com mail.justsafe.com: C68 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:081 mail.justsafe.com zhangt2@justsafe.com
+C9 OK LSUB completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:083 zhangt2@justsafe.com mail.justsafe.com: C10 NOOP
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:106 mail.justsafe.com zhangt2@justsafe.com
+C68 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:108 zhangt2@justsafe.com mail.justsafe.com: C69 CAPABILITY
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:121 mail.justsafe.com zhangt2@justsafe.com
+C10 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:122 zhangt2@justsafe.com mail.justsafe.com: C11 STATUS "INBOX" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:145 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C69 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:145 zhangt2@justsafe.com mail.justsafe.com: C70 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:162 mail.justsafe.com zhangt2@justsafe.com
+* STATUS INBOX (MESSAGES 13 RECENT 0 UIDVALIDITY 14) 
+C11 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:162 zhangt2@justsafe.com mail.justsafe.com: C12 STATUS "&g0l6Pw-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:187 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C70 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:187 zhangt2@justsafe.com mail.justsafe.com: C71 UID FETCH 1 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:203 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &g0l6Pw- (MESSAGES 0 RECENT 0 UIDVALIDITY 17) 
+C12 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:203 zhangt2@justsafe.com mail.justsafe.com: C13 STATUS "&XfJT0ZABkK5O9g-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:241 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &XfJT0ZABkK5O9g- (MESSAGES 1 RECENT 0 UIDVALIDITY 11) 
+C13 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:241 zhangt2@justsafe.com mail.justsafe.com: C14 STATUS "&XfJSIJZkkK5O9g-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:318 BodyPeek response: * 1 FETCH (UID 1 BODY[] {113125} 
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:318 Begin to Retrieve
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:391 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &XfJSIJZkkK5O9g- (MESSAGES 0 RECENT 0 UIDVALIDITY 12) 
+C14 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:391 zhangt2@justsafe.com mail.justsafe.com: C15 STATUS "&V4NXPpCuTvY-" (MESSAGES RECENT UIDVALIDITY)
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:439 mail.justsafe.com zhangt2@justsafe.com
+* STATUS &V4NXPpCuTvY- (MESSAGES 0 RECENT 0 UIDVALIDITY 32) 
+C15 OK STATUS completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:440 zhangt2@justsafe.com mail.justsafe.com: C16 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:487 mail.justsafe.com zhangt2@justsafe.com
+C16 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:488 before downdload local uid count 13
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:488 zhangt2@justsafe.com mail.justsafe.com: C17 CAPABILITY
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:489 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:490 zhangt2@justsafe.com mail.justsafe.com: C72 UID FETCH 1 (UID FLAGS)
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:534 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C17 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:534 zhangt2@justsafe.com mail.justsafe.com: C18 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:584 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C18 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:584 zhangt2@justsafe.com mail.justsafe.com: C19 FETCH 1:13 (UID)
+[7.2.19.158] [ThreadId: 7896]  2020-10-29 10:12:24:633 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C72 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:714 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1)
+C19 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:714 server uid count: 13 local uid count 13
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:715 zhangt2@justsafe.com mail.justsafe.com: C20 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:771 mail.justsafe.com zhangt2@justsafe.com
+C20 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:771 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:771 zhangt2@justsafe.com mail.justsafe.com: C21 CAPABILITY
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:811 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C21 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:811 zhangt2@justsafe.com mail.justsafe.com: C22 SELECT "&g0l6Pw-"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:868 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 17] UIDVALIDITY value
+* OK [UIDNEXT 4] The next unique identifier value
+C22 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:869 zhangt2@justsafe.com mail.justsafe.com: C23 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:899 mail.justsafe.com zhangt2@justsafe.com
+C23 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:901 before downdload local uid count 1
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:901 zhangt2@justsafe.com mail.justsafe.com: C24 CAPABILITY
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:943 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C24 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:943 zhangt2@justsafe.com mail.justsafe.com: C25 SELECT "&XfJT0ZABkK5O9g-"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:990 mail.justsafe.com zhangt2@justsafe.com
+* 1 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 11] UIDVALIDITY value
+* OK [UIDNEXT 2] The next unique identifier value
+C25 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:24:991 zhangt2@justsafe.com mail.justsafe.com: C26 FETCH 1:1 (UID)
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:131 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1)
+C26 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:131 server uid count: 1 local uid count 1
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:132 zhangt2@justsafe.com mail.justsafe.com: C27 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:164 mail.justsafe.com zhangt2@justsafe.com
+C27 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:165 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:165 zhangt2@justsafe.com mail.justsafe.com: C28 CAPABILITY
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:183 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C28 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:183 zhangt2@justsafe.com mail.justsafe.com: C29 SELECT "&XfJSIJZkkK5O9g-"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:213 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 12] UIDVALIDITY value
+* OK [UIDNEXT 1] The next unique identifier value
+C29 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:215 zhangt2@justsafe.com mail.justsafe.com: C30 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:233 mail.justsafe.com zhangt2@justsafe.com
+C30 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:234 before downdload local uid count 0
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:234 zhangt2@justsafe.com mail.justsafe.com: C31 CAPABILITY
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:254 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C31 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:254 zhangt2@justsafe.com mail.justsafe.com: C32 SELECT "&V4NXPpCuTvY-"
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:303 mail.justsafe.com zhangt2@justsafe.com
+* 0 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 32] UIDVALIDITY value
+* OK [UIDNEXT 1] The next unique identifier value
+C32 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:305 zhangt2@justsafe.com mail.justsafe.com: C33 NOOP
+[7.2.19.158] [ThreadId: 4584]  2020-10-29 10:12:25:324 mail.justsafe.com zhangt2@justsafe.com
+C33 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:327 zhangt2@justsafe.com mail.justsafe.com: C13 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:351 mail.justsafe.com zhangt2@justsafe.com
+C13 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:352 zhangt2@justsafe.com mail.justsafe.com: C14 SELECT "INBOX"
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:387 mail.justsafe.com zhangt2@justsafe.com
+* 13 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UNSEEN 3] Is the first unseen message
+* OK [UIDVALIDITY 14] UIDVALIDITY value
+* OK [UIDNEXT 16] The next unique identifier value
+C14 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:388 zhangt2@justsafe.com mail.justsafe.com: C15 UID FETCH 1:2,5:15 (UID FLAGS)
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:476 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C15 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:477 zhangt2@justsafe.com mail.justsafe.com: C16 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:505 mail.justsafe.com zhangt2@justsafe.com
+C16 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:507 zhangt2@justsafe.com mail.justsafe.com: C17 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:528 mail.justsafe.com zhangt2@justsafe.com
+C17 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:530 zhangt2@justsafe.com mail.justsafe.com: C18 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:554 mail.justsafe.com zhangt2@justsafe.com
+C18 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:555 zhangt2@justsafe.com mail.justsafe.com: C19 SELECT "&XfJT0ZABkK5O9g-"
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:583 mail.justsafe.com zhangt2@justsafe.com
+* 1 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 11] UIDVALIDITY value
+* OK [UIDNEXT 2] The next unique identifier value
+C19 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:584 zhangt2@justsafe.com mail.justsafe.com: C20 UID FETCH 1 (UID FLAGS)
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:670 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C20 OK FETCH completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:670 zhangt2@justsafe.com mail.justsafe.com: C21 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:704 mail.justsafe.com zhangt2@justsafe.com
+C21 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:705 zhangt2@justsafe.com mail.justsafe.com: C22 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:724 mail.justsafe.com zhangt2@justsafe.com
+C22 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:726 zhangt2@justsafe.com mail.justsafe.com: C23 NOOP
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:744 mail.justsafe.com zhangt2@justsafe.com
+C23 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:139 zhangt2@justsafe.com mail.justsafe.com: C73 NOOP
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:166 mail.justsafe.com zhangt2@justsafe.com
+C73 OK NOOP completed.
+----------------------
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:167 zhangt2@justsafe.com mail.justsafe.com: C74 CAPABILITY
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:189 mail.justsafe.com zhangt2@justsafe.com
+* CAPABILITY IMAP4 IMAP4rev1 AUTH=PLAIN UIDPLUS CHILDREN IDLE NAMESPACE LITERAL+
+C74 OK CAPABILITY completed.
+----------------------
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:189 zhangt2@justsafe.com mail.justsafe.com: C75 SELECT "&XfJT0ZABkK5O9g-"
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:221 mail.justsafe.com zhangt2@justsafe.com
+* 1 EXISTS
+* 0 RECENT
+* FLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)
+* OK [PERMANENTFLAGS (\Seen \Answered \Flagged \Deleted \Draft $MDNSent)] Permanent flags
+* OK [UIDVALIDITY 11] UIDVALIDITY value
+* OK [UIDNEXT 2] The next unique identifier value
+C75 OK [READ-WRITE] SELECT completed.
+----------------------
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:222 zhangt2@justsafe.com mail.justsafe.com: C76 UID FETCH 1 (UID BODY.PEEK[])
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:250 BodyPeek response: * 1 FETCH (UID 1 BODY[] {625} 
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:250 Begin to Retrieve
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:311 zhangt2@justsafe.com mail.justsafe.com: Receive mail success
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:311 zhangt2@justsafe.com mail.justsafe.com: C77 UID FETCH 1 (UID FLAGS)
+[7.2.19.158] [ThreadId: 11656]  2020-10-29 10:12:29:401 mail.justsafe.com zhangt2@justsafe.com
+* 1 FETCH (UID 1 FLAGS (\Seen))
+C77 OK FETCH completed.
+----------------------
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:632 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:632 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:632 IDLE ReadLn Error: 10053
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:633 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:633 zhangt2@justsafe.com mail.justsafe.com 993
+Error: error:00002745:lib(0):func(2):reason(1861) SSL Recv0
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:634 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:634 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:634 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:634 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993
+[7.2.19.158] [MainThread: 20080]  2020-10-29 10:13:55:634 DisConnect: zhangt2@justsafe.com mail.justsafe.com 993

@@ -1,0 +1,3 @@
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:565 BEGIN IDLE
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:12:15:579 Wait For Messages...
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:632 Wait Error: error:00002745:lib(0):func(2):reason(1861) SSL Recv0

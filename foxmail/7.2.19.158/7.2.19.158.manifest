@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="7.2.19.158" version="7.2.19.158" processorArchitecture="x86"/>
+	<file name="ssleay32.dll"/>
+	<file name="libeay32.dll" />	
+	<file name="FMMAPI32.dll" />
+    <file name="FtnClient.dll" />
+    <file name="Export_Foxmail.dll" />
+    <file name="ImportOL.dll" />
+    <file name="ImportOE.dll" />
+    <file name="Pcre.dll" />
+	<file name="PrScrn.dll"  />	
+	<file name="FoxNote.dll" />
+	<file name="ImportPST.dll" />
+	<file name="FMPreview.dll" />
+	<file name="Rtf2Html.dll" />
+	<file name="FMZip.dll" />
+	<file name="libexpat.dll" />
+	<file name="libwbxml2.dll" />
+	<file name="dbghelp.dll" />
+	<file name="FoxBugReport.dll" />
+	<file name="tinyxml.dll" />
+	<file name="NoteDataConverter.dll" />
+	<file name="FoxPrefetch.dll" />
+	<file name="zlib1.dll" />
+	<file name="SpamFilter.dll" />
+	<file name="libcurl.dll" />
+	<file name="exchange.dll" />
+	<file name="msvcp80.dll" />
+	<file name="msvcr80.dll" />
+	<file name="msvcr100.dll" />
+	<file name="caldav.dll" />
+	<file name="ctLoginClient.dll" />
+	<file name="msvcp120.dll" />
+	<file name="msvcr120.dll" />
+	<file name="pdfium.dll" />
+</assembly>

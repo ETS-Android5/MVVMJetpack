@@ -1,0 +1,43 @@
+[7.2.19.158] [ThreadId: 16928]  2020-10-29 10:12:07:063 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 18768]  2020-10-29 10:12:07:063 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 8864]  2020-10-29 10:12:07:063 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 15272]  2020-10-29 10:12:07:063 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 1340]  2020-10-29 10:12:07:063 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 11372]  2020-10-29 10:12:07:067 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 20028]  2020-10-29 10:12:07:067 [socket] gethostbyname: 11001
+[7.2.19.158] [ThreadId: 11216]  2020-10-29 10:12:09:190 [socket] ConnectDirectly: 10061
+[7.2.19.158] [ThreadId: 15516]  2020-10-29 10:12:09:190 [socket] ConnectDirectly: 10061
+[7.2.19.158] [ThreadId: 13160]  2020-10-29 10:12:09:190 [socket] ConnectDirectly: 10061
+[7.2.19.158] [ThreadId: 5836]  2020-10-29 10:12:09:190 [socket] ConnectDirectly: 10061
+[7.2.19.158] [ThreadId: 5936]  2020-10-29 10:12:16:823 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:151 Imap DoExecute, cmdType:54 
+
+[7.2.19.158] [ThreadId: 8436]  2020-10-29 10:12:18:152 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 4, ErrorMsg: [BADCHARSET (US-ASCII)] The specified charset is not supported.
+
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:735 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:904 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:931 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 8668]  2020-10-29 10:12:18:952 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:506 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:529 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:704 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:725 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14840]  2020-10-29 10:12:25:745 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 13160]  2020-10-29 10:12:30:244 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 11216]  2020-10-29 10:12:30:244 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 5836]  2020-10-29 10:12:30:244 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 15516]  2020-10-29 10:12:30:244 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:632 SSL Recv --SSL errorCode: 5 WSAGetLastError: 10053
+[7.2.19.158] [ThreadId: 20120]  2020-10-29 10:13:55:633 Imap DoExecute, cmdType:21 
+
