@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">测试</string>
+
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="user_cancelled">User denied screen sharing permission</string>
+</resources>

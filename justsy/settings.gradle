@@ -1,4 +1,4 @@
-include ':libarch'
+include ':libarch', ':HCNetSDK', ':tuikit', ':app_test', ':ebs', ':kamkeyboard'
 include ':libview'
 include ':just'
 include ':domain'
