@@ -23,3 +23,8 @@
 [7.2.19.158] [MainThread: 15616]  2020-10-29 14:48:22:380 Valid unread count in ValidUnreadCount. Mail count: 9, first mail id: 100000003, new unread count: 9.
 [7.2.19.158] [MainThread: 15616]  2020-10-29 14:50:46:196 Invalid unread count in OnMailsReadChanged. Old unread count: 9.
 [7.2.19.158] [MainThread: 15616]  2020-10-29 14:50:46:200 Valid unread count in ValidUnreadCount. Mail count: 8, first mail id: 100000003, new unread count: 8.
+[7.2.19.158] [ThreadId: 2760]  2020-10-30 17:54:59:874 Valid unread count in ValidUnreadCount. Mail count: 8, first mail id: 100000003, new unread count: 8.
+[7.2.19.158] [MainThread: 14048]  2020-10-30 17:55:02:050 Invalid unread count in OnMailsReadChanged. Old unread count: 8.
+[7.2.19.158] [MainThread: 14048]  2020-10-30 17:55:02:073 Valid unread count in ValidUnreadCount. Mail count: 7, first mail id: 100000003, new unread count: 7.
+[7.2.19.158] [MainThread: 14048]  2020-10-30 17:55:03:096 Invalid unread count in OnMailsReadChanged. Old unread count: 7.
+[7.2.19.158] [MainThread: 14048]  2020-10-30 17:55:03:099 Valid unread count in ValidUnreadCount. Mail count: 6, first mail id: 100000003, new unread count: 6.
