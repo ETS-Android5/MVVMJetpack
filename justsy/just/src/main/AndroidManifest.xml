@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App_test">
-        <activity android:name="com.justsafe.libview.MainActivity">
+        <activity
+            android:name=".ui.zjprisonshift.HandoverActivity"
+            android:label="@string/title_activity_duty"
+            android:theme="@style/Theme.App_test.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.zjprisonshift.DutyActivity"
+            android:label="@string/title_activity_duty"
+            android:theme="@style/Theme.App_test.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
