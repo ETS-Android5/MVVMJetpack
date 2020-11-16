@@ -89,3 +89,67 @@ ErrorCode: 4, ErrorMsg: [BADCHARSET (US-ASCII)] The specified charset is not sup
 [7.2.19.158] [ThreadId: 16212]  2020-10-29 15:17:33:622 SSL Recv --SSL errorCode: 5 WSAGetLastError: 10053
 [7.2.19.158] [ThreadId: 16212]  2020-10-29 15:17:33:623 Imap DoExecute, cmdType:21 
 
+[7.2.19.158] [ThreadId: 21004]  2020-11-09 15:55:31:283 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 22144]  2020-11-09 15:55:31:283 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 22144]  2020-11-09 15:55:31:283 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 1, ErrorMsg: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+[7.2.19.158] [ThreadId: 21004]  2020-11-09 15:55:31:283 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 1, ErrorMsg: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+[7.2.19.158] [ThreadId: 6880]  2020-11-09 15:55:51:300 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 6880]  2020-11-09 15:55:51:300 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 1, ErrorMsg: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+[7.2.19.158] [ThreadId: 6844]  2020-11-09 15:58:45:055 SSL HandShake --SSL errorCode: 5 WSAGetLastError: 10053
+[7.2.19.158] [ThreadId: 6844]  2020-11-09 15:58:45:055 [socket] MakeSSLConnection, Verion 1, LastError: 10053
+[7.2.19.158] [ThreadId: 24216]  2020-11-09 16:01:44:368 SSL HandShake --SSL errorCode: 5 WSAGetLastError: 10053
+[7.2.19.158] [ThreadId: 24216]  2020-11-09 16:01:44:368 [socket] MakeSSLConnection, Verion 1, LastError: 10053
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:07:38:869 SSL Recv --SSL errorCode: 5 WSAGetLastError: 10054
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:07:58:906 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:08:18:907 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:08:18:907 Imap DoExecute, cmdType:21 
+
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:08:18:907 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 4, ErrorMsg: error:0000274C:lib(0):func(2):reason(1868) SSL Recv0
+
+[7.2.19.158] [ThreadId: 14984]  2020-11-09 16:10:51:299 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 14984]  2020-11-09 16:10:51:299 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 1, ErrorMsg: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+[7.2.19.158] [ThreadId: 23392]  2020-11-09 16:12:23:899 SSL HandShake --SSL errorCode: 5 WSAGetLastError: 10060
+[7.2.19.158] [ThreadId: 23392]  2020-11-09 16:17:23:899 [socket] MakeSSLConnection, Verion 1, LastError: 10060
+[7.2.19.158] [ThreadId: 23392]  2020-11-09 16:17:23:908 Type: SMTP; Server: mail.justsafe.com:25 SSL=1
+ErrorCode: 4, ErrorMsg: error:0000274C:lib(0):func(2):reason(1868) SSL ShakeHand0
+[7.2.19.158] [ThreadId: 24336]  2020-11-09 16:18:04:953 Imap DoExecute, cmdType:54 
+
+[7.2.19.158] [ThreadId: 24336]  2020-11-09 16:18:04:953 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 4, ErrorMsg: [BADCHARSET (US-ASCII)] The specified charset is not supported.
+
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:146 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:320 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:499 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:526 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:548 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:465 Imap DoExecute, cmdType:67 
+
+[7.2.19.158] [ThreadId: 14184]  2020-11-09 16:20:15:558 SSL HandShake --SSL errorCode: 5 WSAGetLastError: 10053
+[7.2.19.158] [ThreadId: 14184]  2020-11-09 16:20:15:560 [socket] MakeSSLConnection, Verion 1, LastError: 10053
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:22:14:292 SSL Recv --SSL errorCode: 5 WSAGetLastError: 10054
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:17:323 SSL Send --SSL errorCode: 5 WSAGetLastError: 10054
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:17:323 [socket] ssl send: 10054
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:22:34:312 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:37:326 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:37:326 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 1, ErrorMsg: error:0000274C:lib(0):func(2):reason(1868) SSL Send0
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:22:54:313 [socket] ConnectDirectly: 10060
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:22:54:313 Imap DoExecute, cmdType:21 
+
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:22:54:313 Type: IMAP; Server: mail.justsafe.com:993 SSL=1
+ErrorCode: 4, ErrorMsg: error:0000274C:lib(0):func(2):reason(1868) SSL Recv0
+

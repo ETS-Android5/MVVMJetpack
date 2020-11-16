@@ -403,3 +403,101 @@
 [7.2.19.158] [ThreadId: 4120]  2020-10-29 15:04:00:853 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncFalgs
 [7.2.19.158] [ThreadId: 4120]  2020-10-29 15:04:00:853 AfterGetCommandParams: False
 [7.2.19.158] [ThreadId: 4120]  2020-10-29 15:04:00:853 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 21004]  2020-11-09 15:55:11:259 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: GetHierarchy
+[7.2.19.158] [ThreadId: 22144]  2020-11-09 15:55:11:259 AddPushNotification: accID: 4294967297
+[7.2.19.158] [ThreadId: 21004]  2020-11-09 15:55:11:259 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncHierarychy; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 16412]  2020-11-09 16:05:31:287 AddPushNotification: accID: 4294967297
+[7.2.19.158] [ThreadId: 14984]  2020-11-09 16:10:31:291 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: GetHierarchy
+[7.2.19.158] [ThreadId: 14984]  2020-11-09 16:10:31:291 AfterGetCommandParams: True
+	TaskId: 8, Command: SyncHierarychy; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:00:727 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: GetHierarchy
+[7.2.19.158] [ThreadId: 22216]  2020-11-09 16:18:00:727 AddPushNotification: accID: 4294967297
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:00:727 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncHierarychy; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:357 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Status
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:357 AfterGetCommandParams: True
+	TaskId: 1, Command: StatusBox; accId: 4294967297, boxId: -1, mId: -1; accName: justsafe(zhangt2), boxName: , msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:536 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: Upload
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:549 AfterGetCommandParams: True
+	TaskId: 1, Command: AppendMail; accId: 4294967297, boxId: 4294967301, mId: 4294967315; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 周报
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:914 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Upload
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:02:915 AfterGetCommandParams: True
+	TaskId: 1, Command: AppendMail; accId: 4294967297, boxId: 4294967301, mId: 4294967316; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 周报
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:093 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Upload
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:093 AfterGetCommandParams: True
+	TaskId: 1, Command: AppendMail; accId: 4294967297, boxId: 4294967301, mId: 4294967317; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 周报
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:253 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:254 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncContent; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:923 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:03:923 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncContent; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:088 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:088 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncContent; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: 已发送邮件, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:233 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:234 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncContent; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: 已删除邮件, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:312 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:312 AfterGetCommandParams: True
+	TaskId: 1, Command: SyncContent; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: 垃圾邮件, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:380 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: Download
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:380 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:380 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncTags
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:380 AfterGetCommandParams: True
+	TaskId: 1, Command: 62; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: 垃圾邮件, msg: 
+[7.2.19.158] [ThreadId: 10680]  2020-11-09 16:18:04:407 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:04:409 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:04:415 AfterGetCommandParams: True
+	TaskId: 5, Command: MarkFlags; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:008 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:008 AfterGetCommandParams: True
+	TaskId: 5, Command: FetchFlags; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:127 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:127 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:146 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:146 AfterGetCommandParams: True
+	TaskId: 5, Command: FetchFlags; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:296 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:296 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967301, mId: -1; accName: justsafe(zhangt2), boxName: 草稿箱, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:320 BeforeGetCommandParams: accId: 1, boxId: 5, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:320 AfterGetCommandParams: True
+	TaskId: 5, Command: FetchFlags; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: 已发送邮件, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:479 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:479 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967308, mId: -1; accName: justsafe(zhangt2), boxName: 已发送邮件, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:500 BeforeGetCommandParams: accId: 1, boxId: 12, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:500 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967309, mId: -1; accName: justsafe(zhangt2), boxName: 已删除邮件, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:526 BeforeGetCommandParams: accId: 1, boxId: 13, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:526 AfterGetCommandParams: True
+	TaskId: 5, Command: 67; accId: 4294967297, boxId: 4294967303, mId: -1; accName: justsafe(zhangt2), boxName: 垃圾邮件, msg: 
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:548 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:548 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 5640]  2020-11-09 16:18:05:548 BeforeGetCommandParams: accId: 1, boxId: 7, curTask: 6
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:121 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Status
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:121 AfterGetCommandParams: True
+	TaskId: 6, Command: StatusBox; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:167 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Upload
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:168 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:168 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Download
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:168 AfterGetCommandParams: True
+	TaskId: 6, Command: SyncContent; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:318 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Download
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:318 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 24380]  2020-11-09 16:18:07:318 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: 6
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:319 BeforeGetCommandParams: accId: 1, boxId: -1, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:319 AfterGetCommandParams: True
+	TaskId: 7, Command: FetchFlags; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:443 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:443 AfterGetCommandParams: True
+	TaskId: 7, Command: 67; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:465 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: SyncFalgs
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:465 AfterGetCommandParams: False
+[7.2.19.158] [ThreadId: 11900]  2020-11-09 16:18:07:465 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: 6
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:17:323 BeforeGetCommandParams: accId: 1, boxId: 3, curTask: Status
+[7.2.19.158] [ThreadId: 24628]  2020-11-09 16:22:17:323 AfterGetCommandParams: True
+	TaskId: 9, Command: StatusBox; accId: 4294967297, boxId: 4294967299, mId: -1; accName: justsafe(zhangt2), boxName: 收件箱, msg: 
